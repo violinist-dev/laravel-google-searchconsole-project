@@ -54,7 +54,7 @@
                     <div class="col-sm-4">
                         {{ Form::password('shared', ['class' => 'form-control']) }}
 
-                        <a href="{{ url('url',  $site->id) }}" target="_blank">{{ url('url', $site->id) }}</a>
+                        <a href="{{ route('share.show',  $site->id) }}" target="_blank">{{ route('share.show', $site->id) }}</a>
 
                     </div>
                 </div>
