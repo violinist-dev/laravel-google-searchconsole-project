@@ -231,16 +231,16 @@
         },
         {
             "name": "doctrine/cache",
-            "version": "v1.7.1",
+            "version": "v1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/cache.git",
-                "reference": "b3217d58609e9c8e661cd41357a54d926c4a2a1a"
+                "reference": "d768d58baee9a4862ca783840eca1b9add7a7f57"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/cache/zipball/b3217d58609e9c8e661cd41357a54d926c4a2a1a",
-                "reference": "b3217d58609e9c8e661cd41357a54d926c4a2a1a",
+                "url": "https://api.github.com/repos/doctrine/cache/zipball/d768d58baee9a4862ca783840eca1b9add7a7f57",
+                "reference": "d768d58baee9a4862ca783840eca1b9add7a7f57",
                 "shasum": ""
             },
             "require": {
@@ -251,8 +251,9 @@
             },
             "require-dev": {
                 "alcaeus/mongo-php-adapter": "^1.1",
+                "doctrine/coding-standard": "^4.0",
                 "mongodb/mongodb": "^1.1",
-                "phpunit/phpunit": "^5.7",
+                "phpunit/phpunit": "^7.0",
                 "predis/predis": "~1.0"
             },
             "suggest": {
@@ -261,7 +262,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.7.x-dev"
+                    "dev-master": "1.8.x-dev"
                 }
             },
             "autoload": {
@@ -296,12 +297,12 @@
                 }
             ],
             "description": "Caching library offering an object-oriented API for many cache backends",
-            "homepage": "http://www.doctrine-project.org",
+            "homepage": "https://www.doctrine-project.org",
             "keywords": [
                 "cache",
                 "caching"
             ],
-            "time": "2017-08-25T07:02:50+00:00"
+            "time": "2018-08-21T18:01:43+00:00"
         },
         {
             "name": "doctrine/dbal",
@@ -890,16 +891,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.65",
+            "version": "v0.67",
             "source": {
                 "type": "git",
                 "url": "https://github.com/google/google-api-php-client-services.git",
-                "reference": "cc7299c4a12a09b379a2d952d2a28ad32396275d"
+                "reference": "32f65995935033e40cc94d4f484905b38eb039f8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/google/google-api-php-client-services/zipball/cc7299c4a12a09b379a2d952d2a28ad32396275d",
-                "reference": "cc7299c4a12a09b379a2d952d2a28ad32396275d",
+                "url": "https://api.github.com/repos/google/google-api-php-client-services/zipball/32f65995935033e40cc94d4f484905b38eb039f8",
+                "reference": "32f65995935033e40cc94d4f484905b38eb039f8",
                 "shasum": ""
             },
             "require": {
@@ -923,20 +924,20 @@
             "keywords": [
                 "google"
             ],
-            "time": "2018-07-12T00:23:02+00:00"
+            "time": "2018-08-25T00:23:06+00:00"
         },
         {
             "name": "google/auth",
-            "version": "v1.3.2",
+            "version": "v1.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/google/google-auth-library-php.git",
-                "reference": "436007a77fd2037f933d3a5c8e4c7e0c9b88a7b0"
+                "reference": "af72b3f50420c801dc35cc07b1fa429ae027b847"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/google/google-auth-library-php/zipball/436007a77fd2037f933d3a5c8e4c7e0c9b88a7b0",
-                "reference": "436007a77fd2037f933d3a5c8e4c7e0c9b88a7b0",
+                "url": "https://api.github.com/repos/google/google-auth-library-php/zipball/af72b3f50420c801dc35cc07b1fa429ae027b847",
+                "reference": "af72b3f50420c801dc35cc07b1fa429ae027b847",
                 "shasum": ""
             },
             "require": {
@@ -970,7 +971,7 @@
                 "google",
                 "oauth2"
             ],
-            "time": "2018-07-23T21:44:38+00:00"
+            "time": "2018-08-27T19:47:35+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -1242,16 +1243,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.6.33",
+            "version": "v5.6.35",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "8a708b989adc320c451ee639d812af81f884666b"
+                "reference": "02abbe2091404ebe032a6d5a83075031b7072ebe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/8a708b989adc320c451ee639d812af81f884666b",
-                "reference": "8a708b989adc320c451ee639d812af81f884666b",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/02abbe2091404ebe032a6d5a83075031b7072ebe",
+                "reference": "02abbe2091404ebe032a6d5a83075031b7072ebe",
                 "shasum": ""
             },
             "require": {
@@ -1377,7 +1378,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2018-08-09T20:36:39+00:00"
+            "time": "2018-08-27T13:18:24+00:00"
         },
         {
             "name": "laravel/socialite",
@@ -1575,16 +1576,16 @@
         },
         {
             "name": "league/flysystem",
-            "version": "1.0.45",
+            "version": "1.0.46",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "a99f94e63b512d75f851b181afcdf0ee9ebef7e6"
+                "reference": "f3e0d925c18b92cf3ce84ea5cc58d62a1762a2b2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/a99f94e63b512d75f851b181afcdf0ee9ebef7e6",
-                "reference": "a99f94e63b512d75f851b181afcdf0ee9ebef7e6",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/f3e0d925c18b92cf3ce84ea5cc58d62a1762a2b2",
+                "reference": "f3e0d925c18b92cf3ce84ea5cc58d62a1762a2b2",
                 "shasum": ""
             },
             "require": {
@@ -1596,7 +1597,7 @@
             "require-dev": {
                 "ext-fileinfo": "*",
                 "phpspec/phpspec": "^3.4",
-                "phpunit/phpunit": "^5.7"
+                "phpunit/phpunit": "^5.7.10"
             },
             "suggest": {
                 "ext-fileinfo": "Required for MimeType",
@@ -1655,7 +1656,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2018-05-07T08:44:23+00:00"
+            "time": "2018-08-22T07:45:22+00:00"
         },
         {
             "name": "league/oauth1-client",
@@ -1722,16 +1723,16 @@
         },
         {
             "name": "maatwebsite/excel",
-            "version": "3.0.9",
+            "version": "3.0.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Maatwebsite/Laravel-Excel.git",
-                "reference": "d469aea977f2d3b7f3d3ab740c8bd1f87c88c1f7"
+                "reference": "ad847be7df3519cdf6604eba0175fa6db1823340"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Maatwebsite/Laravel-Excel/zipball/d469aea977f2d3b7f3d3ab740c8bd1f87c88c1f7",
-                "reference": "d469aea977f2d3b7f3d3ab740c8bd1f87c88c1f7",
+                "url": "https://api.github.com/repos/Maatwebsite/Laravel-Excel/zipball/ad847be7df3519cdf6604eba0175fa6db1823340",
+                "reference": "ad847be7df3519cdf6604eba0175fa6db1823340",
                 "shasum": ""
             },
             "require": {
@@ -1782,7 +1783,7 @@
                 "php",
                 "phpspreadsheet"
             ],
-            "time": "2018-08-07T16:37:15+00:00"
+            "time": "2018-08-26T09:50:19+00:00"
         },
         {
             "name": "markbaker/complex",
@@ -4103,16 +4104,16 @@
         },
         {
             "name": "laravel/homestead",
-            "version": "v7.14.2",
+            "version": "v7.15.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/homestead.git",
-                "reference": "59dfd90d59891d49b1024ad6d84b9c3c1d920bf3"
+                "reference": "068814af93aced781d33b4712f211c1c55cedfbc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/homestead/zipball/59dfd90d59891d49b1024ad6d84b9c3c1d920bf3",
-                "reference": "59dfd90d59891d49b1024ad6d84b9c3c1d920bf3",
+                "url": "https://api.github.com/repos/laravel/homestead/zipball/068814af93aced781d33b4712f211c1c55cedfbc",
+                "reference": "068814af93aced781d33b4712f211c1c55cedfbc",
                 "shasum": ""
             },
             "require": {
@@ -4150,7 +4151,7 @@
                 }
             ],
             "description": "A virtual machine for web artisans.",
-            "time": "2018-08-01T12:36:07+00:00"
+            "time": "2018-08-23T16:14:12+00:00"
         },
         {
             "name": "mockery/mockery",
@@ -4897,16 +4898,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "7.3.1",
+            "version": "7.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "f9b14c17860eccb440a0352a117a81eb754cff5a"
+                "reference": "34705f81bddc3f505b9599a2ef96e2b4315ba9b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/f9b14c17860eccb440a0352a117a81eb754cff5a",
-                "reference": "f9b14c17860eccb440a0352a117a81eb754cff5a",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/34705f81bddc3f505b9599a2ef96e2b4315ba9b8",
+                "reference": "34705f81bddc3f505b9599a2ef96e2b4315ba9b8",
                 "shasum": ""
             },
             "require": {
@@ -4977,7 +4978,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2018-08-07T06:44:28+00:00"
+            "time": "2018-08-22T06:39:21+00:00"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
